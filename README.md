@@ -16,13 +16,15 @@ Print the distance.
 ### Step 5: 
 End the program.
 ### PROGRAM:
-  #Program to find the distance between two points.
+```
+#Program to find the distance between two points.
 #Developed by: L.yagnesh kumar reddy
 #RegisterNumber:23004742
 import math
 x1,x2,y1,y2=4,10,2,6
 distance=(((x2-x1)**2)+(y2-y1)**2)**0.5
 print("{0:.2f}".format(distance))
+```
 
 
 ### OUTPUT:
