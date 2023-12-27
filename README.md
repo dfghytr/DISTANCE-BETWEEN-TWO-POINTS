@@ -16,20 +16,22 @@ Print the distance.
 ### Step 5: 
 End the program.
 ### PROGRAM:
-```
 #Program to find the distance between two points.
-#Developed by: L.yagnesh kumar reddy
-#RegisterNumber:23004742
+#Developed by: ABDUL KALAAM K M
+#RegisterNumber: 23005114
 import math
-x1,x2,y1,y2=4,10,2,6
-distance=(((x2-x1)**2)+(y2-y1)**2)**0.5
-print("{0:.2f}".format(distance))
+x = [4,2]
+y = [10,6]
+distance = math.sqrt(((x[0]-y[0])**2)+((x[1]-y[1])**2))
+Distance=format(distance,".2f")
+print(Distance)
+
 ```
+
 
 
 ### OUTPUT:
-![image](https://github.com/23004742/DISTANCE-BETWEEN-TWO-POINTS/assets/150319318/a33a4d9c-33eb-4ca1-82c4-77eda34bc6fc)
-
+![Screenshot 2023-12-27 145216](https://github.com/dfghytr/DISTANCE-BETWEEN-TWO-POINTS/assets/138970628/9c2febab-d28f-4e59-ab21-74a8e08f6717)
 
 ### RESULT:
 Thus the program to find the distance between two points executed sucessfully
